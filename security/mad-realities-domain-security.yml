@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: madrealities.xyz
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 26 09:49:23 2027 GMT
+  hsts: null
+domains:
+- domain: madrealities.xyz
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
